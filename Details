@@ -1,0 +1,23 @@
+Recap: Last Session
+
+Topics:
+
+  Hooks -> 
+    Functional component is purely representational and stateless.
+
+  Hooks got introduced in 16.8 to overcome the functional component state/lifecycle handling.
+  by creating communication between the DOM and fucntional component
+  eg: useState, useEffect
+
+  Counter Component --> A Simple Component with State Count has increment and decrement funcs
+
+  Passing Data from Child to Parent ---> with the help callback function passed a props to child we can pass data from child to parent during action/event
+
+  Props Drilling ---> Passing data as props from 
+  Top-Ancestor --> Grand-Parent --> Parent --> Child ........
+  Disadvantage:
+    passing data from Child to Parent/Top-Ancestor becomes tideous process
+
+  Reusable Component with Dynamic Data to Component
+    1. Write a Reusable component  ---> See the Reuired Props and Write a componet
+    2. Data Passing between components ---> Using Callback function and Props we can modify the data of parent from one component and pass the data to other component.
